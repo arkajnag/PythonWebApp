@@ -5,3 +5,23 @@
   border-radius: 3px;
   margin-bottom: 20px;
 }
+
+h1.error{
+    font-family: 'Alfa Slab One', cursive;
+    color: red;
+    font-size: 2.5rem;
+}
+
+p.error-comment{
+    font-size: 1.5rem;
+    font-family: 'Doppio One', sans-serif;
+}
+
+.error-500{
+    background-image: url('feedback/static/images/500_Error.png');
+}
+
+div.error-404{
+    background-image: url('feedback/static/images/404_Error.png');
+}
+
