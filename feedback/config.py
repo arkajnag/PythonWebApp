@@ -1,4 +1,3 @@
-
 class Config:
     SECRET_KEY = 'd9f86e26af8fa6271100809023e40c9b'
     SQLALCHEMY_DATABASE_URI = 'postgres://postgres:admin@localhost/feedback'
@@ -9,9 +8,12 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USE_SSL = False
 
+
 class ProductionConfig:
     SECRET_KEY = 'd9f86e26af8fa6271100809023e40c9b'
-    SQLALCHEMY_DATABASE_URI = 'postgres://postgres:admin@localhost/feedback'
+    SQLALCHEMY_DATABASE_URI = 'postgres://jnkaoplvznlxim' \
+                              ':b6e5a9e7dfa55126166b5c0a73f066866716882c68f44e10a80c14149a72f2db@ec2-52-201-55-4' \
+                              '.compute-1.amazonaws.com:5432/deqclhoj424psa '
     MAIL_SERVER = 'smtp.mailtrap.io'
     MAIL_PORT = 2525
     MAIL_USERNAME = 'ef892873b6b0c2'
