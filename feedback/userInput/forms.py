@@ -1,7 +1,8 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, SelectField, RadioField, TextAreaField, SubmitField
-from wtforms.validators import DataRequired, Length, ValidationError
-# from app import Feedback
+from wtforms.validators import DataRequired, Length
+
+from feedback.models import Feedback
 
 
 class feedbackForm(FlaskForm):
